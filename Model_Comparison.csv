@@ -1,0 +1,7 @@
+Model,Stage,Accuracy,Precision,Recall,F1_Score,ROC_AUC,TN,FP,FN,TP
+Baseline Logistic Regression (Default 0.50),Untuned,0.86,0.7353,0.3472,0.4717,0.8568,1276,36,188,100
+Baseline Decision Tree (Unpruned Depth 25),Untuned,0.7844,0.4034,0.4132,0.4082,0.6395,1136,176,169,119
+"Baseline Random Forest (100 Trees, Balanced)",Untuned,0.8481,0.7473,0.2361,0.3588,0.8254,1289,23,220,68
+Tuned Decision Tree (GridSearchCV),Tuned (CV F1),0.7525,0.3916,0.6771,0.4962,0.7811,1009,303,93,195
+Tuned Random Forest (RandomizedSearchCV),Tuned (CV F1),0.8281,0.5206,0.5694,0.5439,0.8331,1161,151,124,164
+Tuned Logistic Regression (FINAL SELECTED),Tuned (CV F1),0.7856,0.4421,0.7292,0.5505,0.8498,1047,265,78,210

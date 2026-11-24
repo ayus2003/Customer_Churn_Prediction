@@ -1,0 +1,14 @@
+Project 2 — Telecommunications Customer Churn Prediction
+Intern Name: Ayush Satishrao Chakole
+Institute: TechnoSignia Software Training Institute
+
+GitHub Repository URL:
+https://github.com/ayush-chakole/Customer_Churn_Prediction
+
+Repository Checklist (Task 6):
+- [x] Complete_Project/ uploaded with clean folder structure (data/, notebooks/, src/, models/, reports/, presentation/)
+- [x] README.md (19 sections) and requirements.txt included at repository root
+- [x] Notebooks ordered sequentially from 01_Dataset_Understanding.ipynb to 13_Feature_Importance.ipynb
+- [x] Temporary cache files (__pycache__, .ipynb_checkpoints) excluded via .gitignore
+- [x] End-to-end inference verified via: python src/predict_churn.py
+- [x] No private credentials, API keys, or confidential customer PII included
